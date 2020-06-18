@@ -1,5 +1,5 @@
 # Papers in Adversarial Attack and Defense for NLP Tasks
-Papers that I read through when doing related projects and research in the area, with summaries I wrote for easier reference
+Papers that I read through when doing related projects and research in the area, with summaries I wrote for easier reference (*Updating)
 
 *Another useful repository of must read papers on textual adversarial attack and defense: https://github.com/thunlp/TAADpapers*
 
