@@ -20,8 +20,17 @@ Modifying characters in a given input sequence to achieve an attack.
 
 ### __Word-level Attack__ 
 Modifying (replacing) words in a given input sequence to achieve an attack.
+- [Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment](https://arxiv.org/pdf/1907.11932v4.pdf). Di Jin, Zhijing Jin, Joey Tianyi Zhou, Peter Szolovits. AAAI 2020.
+  - Presenting __TEXTFOOLER__ with experiments of its attack performance on pre-trained BERT models.
+  - Generating adversarial examples by synonym substituition with word importance
+  - Additional checking on POS and semantic similarity
+
 - [Word-level Textual Adversarial Attacking as Combinatorial Optimization](https://arxiv.org/pdf/1910.12196.pdf). Yuan Zang, Fanchao Qi, Chenghao Yang, Zhiyuan Liu, Meng Zhang, Qun Liu, Maosong Sun. ACL 2020.
-  - [...]
+  - __Sememe__ based word substitution method (instead of synonym)
+    - Sememe: a semantic language unit of meaning / the minimum semantic unit of natural languages
+  - Using Particle Swarm Optimization as its search algorithm
+    - Similar to genetic algorithm, it iteratively improves the candidate solutions with a measure of quality.
+    - Metaheuristic evolutionary computation paradigms
 
 - [Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples](https://arxiv.org/pdf/1803.01128.pdf). Minhao Cheng, Jinfeng Yi, Pin-Yu Chen, Huan Zhang, Cho-Jui Hsieh
   - _white-box_ attack targetting __seq2seq__ models.
